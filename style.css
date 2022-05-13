@@ -1,0 +1,49 @@
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+    --line-color: #000;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-color: var(--line-color);
+    font-family: 'Open-Sans', sans-serif;
+}
+
+[theme="dark"] {
+    --background-color: #3F3F3F;
+    --text-color: #fff;
+    --line-color: #add8e6;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.regular {
+    font-weight: 300;
+}
+
+#header {
+    text-align: center;
+    border-bottom: thin solid var(--line-color);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.semibold {
+    font-weight: 400;
+}
+
+#timer-controls {
+    text-align: center;
+    border-radius: 25px;
+    border: thin solid var(--line-color);
+    width: 50%;
+    margin: auto;
+}
+
+#timer {
+    text-align: center;
+}
